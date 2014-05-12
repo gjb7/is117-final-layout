@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-body, header, section, h1, h2, h3, h4, h5, h6 {
+body, header, section, h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
 }
@@ -234,12 +234,20 @@ nav ul li, ul.links li {
  * Features
  */
 
+#features {
+	color: rgb(74, 74, 74);
+}
+
 .feature {
 	width: 228px;
 	text-align: center;
 	float: left;
 	margin-left: 77px;
 	margin-top: 25px;
+}
+
+.feature h3 {
+	font-size: 20pt;
 }
 
 .feature .image {
@@ -252,13 +260,17 @@ nav ul li, ul.links li {
 /**
  * Sample
  */
+ 
+#sample {
+	color: rgb(50, 50, 50);
+}
 
 #sample .step {
 	float: left;
 	text-align: center;
 	width: 228px;
 	margin-left: 77px;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 .step .image {
